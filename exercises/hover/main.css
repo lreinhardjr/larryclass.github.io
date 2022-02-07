@@ -1,0 +1,123 @@
+body, html {
+  margin:0px;
+
+}
+
+body{
+ right-margin:  0px;
+ padding: 0px;
+ border:  0px;
+
+}
+
+
+
+.morning {
+    width:  33.333333VW;
+    height:  50VH;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.transit {
+    width:  33.3333333VW;
+    height:  50VH;
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.class {
+    width:  33.333333333VW;
+    height:  50VH;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.class-two {
+    width:  33.333333333VW;
+    height:  50VH;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dinner {
+    width:  33.333333333VW;
+    height:  50VH;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bed {
+    width:  33.333333333VW;
+    height:  50VH;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.class:hover {
+    content: url(tengan.jpeg);
+    object-fit: cover;
+        transition: transform .7s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.morning:hover {
+    content: url(atlantic.jpeg);
+    object-fit: cover;
+        transition: transform .7s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.transit:hover {
+    content: url(septa.jpeg);
+    object-fit: cover;
+        transition: transform .7s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.class-two:hover {
+    content: url(weitzman.jpeg);
+    object-fit: cover;
+        transition: transform .7s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.dinner:hover {
+    content: url(thai.jpeg);
+    object-fit: cover;
+        transition: transform .7s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.bed:hover {
+    content: url(atlantic.jpeg);
+    object-fit: cover;
+    transition: transform .7s ease-in-out;
+    transform: rotate(360deg);
+}

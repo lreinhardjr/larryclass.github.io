@@ -1,0 +1,199 @@
+body, html {
+	height: 100%;
+	margin:  0px;
+}
+
+.climbing-content {
+	text-shadow: 1px 1px 2px black;
+	width: 30vw;
+	height: 0px;
+	font-size: 25px;
+	color: white;
+	margin-right: 100px;
+transform: translateZ(-1px);
+	background-color: black;
+	line-height: 1.5;
+}
+
+.climbing1{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.climbing {
+	background-image: url(assets/climbing.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mentalprep-content {
+	height: 0px;
+	width: 30vw;
+	font-size: 25px;
+	color: white;
+	margin-left: 100px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 2px black;
+}
+
+.mentalprep {
+	background-image: url(assets/mentalprep.png);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.approach1{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.approach-content {
+	height: 0px;
+	width: 30vw;
+	font-size: 25px;
+	color: white;
+	margin-right: 100px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 2px black;
+}
+
+.approach {
+	background-image: url(assets/approach.jpeg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.flight1-content {
+	height: 0px;
+	width: 25vw;
+	font-size: 25px;
+	color: white;
+	margin-left: 100px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 2px black;
+}
+
+.flight1 {
+	background-image: url(assets/flight1.jpeg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.flight22{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.flight2-content {
+	height: 0px;
+	width: 25vw;
+	font-size: 25px;
+	color: white;
+	margin-right: 100px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 2px black;
+}
+
+.flight2 {
+	background-image: url(assets/flight2.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.videos {
+	background-color: darkgray;
+	height:  50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.video-content {
+	display: flex;
+	justify-content: center;
+	background-color: darkgray;
+}
+
+.vid1 {
+	width: 45vw;
+	height: 60vh;
+	margin-right: 2%;
+}
+
+.vid11 {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+.vid2 {
+	width: 45vw;
+	height: 60vh;
+	margin left: 2%;
+}
+
+.vid22 {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+.relief-content {
+	height: 0px;
+	width: 25vw;
+	font-size: 25px;
+	color: white;
+	margin-left: 100px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 2px black;
+}
+
+.relief {
+	background-image: url(assets/relief.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	display: flex;
+	position: sticky;
+	padding-left: 50px;
+	top: 50px;
+	font-size: 200px;
+	color: white;
+	height: 0px;
+	transform: translateZ(0);
+}
+
+.title2 {
+	display: flex;
+	justify-content: flex-end;
+	position: sticky;
+	padding-left: 50px;
+	/*top: 1000px;*/
+	font-size: 200px;
+	color: black;
+	height: 0px;
+}

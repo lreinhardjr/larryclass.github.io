@@ -1,0 +1,46 @@
+body {
+	background-color: white;
+}
+
+.image {
+width: auto;
+text-align: center;
+padding-bottom: 50px;
+}
+
+img {
+max-width: 25%;
+height: auto;
+border-radius: 100px;
+}
+
+.title{
+	color: #798086;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 70px;
+}
+
+.para{
+	font-family: 'Arimo', sans-serif;
+	color:  #2e6171;
+	font-size: 24px;
+	background-color: powderblue;
+	width: 50%;
+	align-content: center;
+	margin:  auto;
+	border: 2px solid black;
+	padding: 50px;
+	border-radius: 100px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+body{
+	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+}
+
+.link{
+	color: orangered;
+	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+
