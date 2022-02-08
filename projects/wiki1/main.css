@@ -21,6 +21,7 @@ body {
 	position: sticky;
 	top: 50px;
 	left: 90vw;
+	margin-bottom: -300px;
 }
 
 .line{
@@ -158,4 +159,7 @@ body {
 .haha {
 	display: flex;
 	flex-direction: row;
+}
+.title {
+	margin-top: -20px;
 }
