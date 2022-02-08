@@ -10,7 +10,6 @@ body, html {
 	font-size: 25px;
 	color: white;
 	margin-right: 100px;
-transform: translateZ(-1px);
 	background-color: black;
 	line-height: 1.5;
 }
@@ -184,7 +183,6 @@ transform: translateZ(-1px);
 	font-size: 200px;
 	color: white;
 	height: 0px;
-	transform: translateZ(0);
 }
 
 .title2 {
@@ -192,7 +190,7 @@ transform: translateZ(-1px);
 	justify-content: flex-end;
 	position: sticky;
 	padding-left: 50px;
-	/*top: 1000px;*/
+	top: 50px;
 	font-size: 200px;
 	color: black;
 	height: 0px;

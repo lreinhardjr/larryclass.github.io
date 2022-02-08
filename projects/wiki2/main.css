@@ -1,0 +1,487 @@
+body {
+	background-color: rgba(237, 227, 228, 0.6);
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	margint: 0px;
+	padding: 0px;
+
+}
+
+.title {
+	background-color: rgba(255, 255, 255, 0.6);
+	position: absolute;
+	padding: 50px;
+	width: 60%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 115px;
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+}
+
+.hero {
+	width:  100vw;
+	height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.line2 {
+	height:  1px;
+	background-color: black;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.quote {
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 25px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.hero-pic {
+	width: 125vw;
+}
+
+.intro-para {
+	position: relative;
+	width: 65vw;
+	text-align: left;
+	background-color: #98DFEA;
+	padding: 50px;
+	font-size: 21px;
+	margin-top: 30px;
+	margin-right: 400px;
+	padding-right: 200px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.pic1 {
+	position: absolute;
+	top: 50px;
+  right: -170px;
+}
+
+.caption1 {
+	position: absolute;
+	padding: 5px;
+	color: black;
+	background-color: white;
+	font-size: 15px;
+  right: -150px;
+  font-family: 'Noto Serif', serif;
+}
+
+.toc-box {
+	position: relative;
+	margin: 75px;
+	background-color: #F6839C;
+	padding: 20px;
+	font-size: 21px;
+	width: 25vw;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 100px;
+	margin-bottom: 150px;
+}
+
+.toc-heading {
+	position: absolute;
+	left: 70px;
+	background-color: white;
+	font-size: 30px;
+	display: inline-block;
+	padding: 10px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+}
+
+.subhead-etym {
+	position: absolute;
+	left: 100px;
+	background-color: white;
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+	top: -75px;
+}
+
+.etym {
+	position: relative;
+	width: 70vw;
+	text-align: left;
+	background-color: #f7b32b;
+	padding: 20px;
+	font-size: 21px;
+	margin-top: 30px;
+	margin-right: 600px;
+	margin-left: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.pano {
+	position: relative;
+	width: 90vw;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.caption2 {
+	position: absolute;
+	padding: 5px;
+	color: black;
+	background-color: white;
+	font-size: 15px;
+	top: 50px;
+	left: 10px;
+  font-family: 'Noto Serif', serif;
+}
+
+.pano1 {
+	margin: 0 auto;
+	width: 90vw;
+}
+
+.subhead-hist {
+	position: absolute;
+	right: 100px;
+	background-color: white;
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+	top: -75px;
+}
+
+.hist {
+	position: relative;
+	margin top: 100px;
+	background-color: #F6839C;
+	padding: 20px;
+	padding-top: 50;
+	font-size: 21px;
+	width: 90vw;
+	margin-left: 50px;
+	margin-bottom: 150px;
+}
+
+.hist-16 {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.hist-161 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+		margin-bottom: 20px;
+}
+
+.hist-17 {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.hist-171 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+		margin-bottom: 20px;
+}
+
+.hist-18 {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.hist-181 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+		margin-bottom: 20px;
+}
+
+.hist-19 {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.hist-191 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+.hist-cuban {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.hist-cuban1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+		margin-bottom: 20px;
+}
+
+.subhead-geo {
+	position: absolute;
+	left: 100px;
+	background-color: white;
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+	top: -75px;
+}
+
+.geo {
+	position: relative;
+	width: 80vw;
+	right: -100px;
+	text-align: left;
+	background-color: #98dfea;
+	padding: 20px;
+	padding-top: 30px;
+	font-size: 21px;
+	margin-top: 30px;
+	margin-right: 600px;
+	margin-left: 50px;
+	margin-bottom: 150px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.subhead-climate {
+	position: absolute;
+	left: 100px;
+	background-color: white;
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+	top: -75px;
+}
+
+.climate {
+	position: relative;
+	width: 80vw;
+	text-align: left;
+	background-color: #f7b32b;
+	padding: 20px;
+	padding-top: 30px;
+	font-size: 21px;
+	margin-top: 30px;
+	margin-right: 600px;
+	margin-left: 50px;
+	margin-bottom: 150px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+	.subhead-city {
+	position: absolute;
+	right: 100px;
+	background-color: white;
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+	top: -75px;
+}
+
+.city {
+	position: relative;
+	width: 80vw;
+	text-align: left;
+	left: 100px;
+	background-color: #98dfea;
+	padding: 20px;
+	padding-bottom: 80px;
+	padding-top: 30px;
+	font-size: 21px;
+	margin-top: 30px;
+	margin-right: 600px;
+	margin-left: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 100px;
+}
+
+.subhead-districts {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 5px;
+}
+
+.districts {
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+	border: 10px;
+	padding: 20px;
+	padding-top: 10px;
+	font-size: 21px;
+	padding-bottom: 10px;
+	width: 1000px;
+}
+
+.districts1 {
+	width: 600px;
+}
+
+.pic2 {
+	position: absolute;
+	right: -100px;
+	background-color: white;
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+	bottom: -30px;
+	height: 275px;
+}
+
+.caption3 {
+	position: absolute;
+	padding: 5px;
+	color: black;
+	background-color: white;
+	font-size: 15px;
+	top: 50px;
+	left: 10px;
+  font-family: 'Noto Serif', serif;
+  z-index: 9;
+}
+
+.landmarks {
+	position: relative;
+	margin top: 300px;
+	background-color: #F6839C;
+	padding: 20px;
+	padding-top: 60px;
+	font-size: 21px;
+	width: 90vw;
+	margin-left: 50px;
+	margin-bottom: 150px;
+}
+
+.land-heading {
+	position: absolute;
+	right: 100px;
+	background-color: white;
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	z-index: 9;
+	top: -75px;
+}
+
+
+.subhead-oh {
+	background-color: white;
+	position: absolute;
+	z-index: 9;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 5px;
+	left:  50px;
+	top:  60px;
+
+}
+
+.oldh {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+	margin: 20px;
+	margin-top: 40px;
+}
+
+.pic3 {
+	margin-top: 50px;
+	width: 40vw;
+	position: relative;
+}
+
+.hist1 {
+	display: flex;
+}
+
+.hist2 {
+	display: flex;
+}
+
+.pic4 {
+	margin-top: 50px;
+	width: 40vw;
+	position: relative;
+}
+
+.subhead-la-alameda {
+	background-color: white;
+	position: absolute;
+	z-index: 9;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 5px;
+	right: 80px;
+
+}
+
+.la-alameda {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+	margin: 20px;
+	margin-top: 40px;
+}
+
+.subhead-el-malecon {
+	background-color: white;
+	position: absolute;
+	z-index: 9;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 5px;
+	left: 80px;
+}
+
+.pic5 {
+	margin-top: 50px;
+	width: 40vw;
+	position: relative;
+}
+
+.el-malecon {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+	margin: 20px;
+	margin-top: 0px;
+}
+
+.hist3 {
+	display: flex;
+}
+
