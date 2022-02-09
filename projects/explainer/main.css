@@ -119,15 +119,20 @@ font-style: normal;
   100% {opacity:  1;}
  }
 
+ .climbing-content, .mentalprep-content, .approach-content, .flight1-content, .flight2-content, .relief-content {
+ 	font-family: itc-avant-garde-gothic-pro, sans-serif;
+	font-weight: 350;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 1.5;
+	text-shadow: 2px 2px 3px black;
+	color: white;
+ }
+
 .climbing-content {
-	text-shadow: 1px 1px 2px black;
 	width: 30vw;
 	height: 0px;
-	font-size: 25px;
-	color: white;
 	margin-right: 100px;
-	background-color: black;
-	line-height: 1.5;
 }
 
 .climbing1{
@@ -148,11 +153,8 @@ font-style: normal;
 .mentalprep-content {
 	height: 0px;
 	width: 30vw;
-	font-size: 25px;
-	color: white;
 	margin-left: 100px;
-	line-height: 1.5;
-	text-shadow: 1px 1px 2px black;
+	
 }
 
 .mentalprep {
@@ -174,11 +176,7 @@ font-style: normal;
 .approach-content {
 	height: 0px;
 	width: 30vw;
-	font-size: 25px;
-	color: white;
 	margin-right: 100px;
-	line-height: 1.5;
-	text-shadow: 1px 1px 2px black;
 }
 
 .approach {
@@ -192,12 +190,8 @@ font-style: normal;
 
 .flight1-content {
 	height: 0px;
-	width: 25vw;
-	font-size: 25px;
-	color: white;
+	width: 30vw;
 	margin-left: 100px;
-	line-height: 1.5;
-	text-shadow: 1px 1px 2px black;
 }
 
 .flight1 {
@@ -212,17 +206,13 @@ font-style: normal;
 .flight22{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: right;
 }
 
 .flight2-content {
 	height: 0px;
-	width: 25vw;
-	font-size: 25px;
-	color: white;
+	width: 30vw;
 	margin-right: 100px;
-	line-height: 1.5;
-	text-shadow: 1px 1px 2px black;
 }
 
 .flight2 {
@@ -235,7 +225,7 @@ font-style: normal;
 }
 
 .videos {
-	background-color: darkgray;
+	background-color: #020219;
 	height:  50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -245,7 +235,7 @@ font-style: normal;
 .video-content {
 	display: flex;
 	justify-content: center;
-	background-color: darkgray;
+	background-color: #020219;
 }
 
 .vid1 {
@@ -274,12 +264,8 @@ font-style: normal;
 
 .relief-content {
 	height: 0px;
-	width: 25vw;
-	font-size: 25px;
-	color: white;
+	width: 30vw;
 	margin-left: 100px;
-	line-height: 1.5;
-	text-shadow: 1px 1px 2px black;
 }
 
 .relief {
