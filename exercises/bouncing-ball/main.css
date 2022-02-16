@@ -1,0 +1,174 @@
+body {
+
+	display: flex;
+	justify-content: center;
+}
+
+.b1 {
+	margin: 50px;
+}
+
+.ball {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: red;
+	animation-name: bounce1;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s;
+	animation-timing-function: cubic-bezier(0.42, 0.0, 0.58, 1.0);
+}
+
+@keyframes bounce1 {
+
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 200px, 0) scaleX(80%) scaleY(65%);
+  }
+}
+
+.shadow {
+	border-radius: 100%;
+	background-color: black;
+	filter: blur(3px);
+	width: 100px;
+	height: 5px;
+  	animation-name: shadow1;
+  	animation-duration: 1s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: cubic-bezier(0.42, 0.0, 0.58, 1.0);
+  	animation-direction: alternate;
+  	animation-fill-mode: backwards;
+  	animation-delay: 1s;
+  	z-index: -1;
+  	margin-top: 185px ;
+
+}
+
+@keyframes shadow1 {
+	0% {
+    opacity: 0;
+    transform:  scale(0);
+  }
+
+  100% {
+    opacity: .9;
+    transform:  scale(100%);
+  }
+
+}
+
+.ball2 {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background-color: blue;
+	animation-name: bounce22;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	animation-delay: 2s;
+	animation-timing-function: cubic-bezier(0.42, 0.0, 0.58, 1.0);
+}
+
+@keyframes bounce22 {
+
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 200px, 0) scaleX(80%) scaleY(65%);
+  }
+}
+
+.shadow2 {
+	border-radius: 100%;
+	background-color: black;
+	filter: blur(3px);
+	width: 150px;
+	height: 5px;
+  	animation-name: shadow2;
+  	animation-duration: 1s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: cubic-bezier(0.42, 0.0, 0.58, 1.0);
+  	animation-direction: alternate;
+  	animation-fill-mode: backwards;
+  	z-index: -1;
+  	animation-delay: 2s;
+  	margin-top: 175px ;
+
+}
+
+@keyframes shadow2 {
+	0% {
+    opacity: 0;
+    transform:  scale(0);
+  }
+
+  100% {
+    opacity: .9;
+    transform:  scale(100%);
+  }
+}
+
+.ball3 {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: yellow;
+	animation-name: bounce3;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-delay: 3.5s;
+	animation-direction: alternate;
+	animation-timing-function: cubic-bezier(0.42, 0.0, 0.58, 1.0);
+}
+
+@keyframes bounce3 {
+
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 200px, 0) scaleX(80%) scaleY(65%);
+  }
+}
+
+.shadow3 {
+	border-radius: 100%;
+	background-color: black;
+	filter: blur(3px);
+	width: 200px;
+	height: 5px;
+  	animation-name: shadow3;
+  	animation-duration: 1s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: cubic-bezier(0.42, 0.0, 0.58, 1.0);
+  	animation-direction: alternate;
+  	animation-delay: 3.5s;
+  	animation-fill-mode: backwards;
+  	z-index: -1;
+  	margin-top: 165px ;
+
+}
+
+@keyframes shadow3 {
+	0% {
+    opacity: 0;
+    transform:  scale(0);
+  }
+
+  100% {
+    opacity: .9;
+    transform:  scale(100%);
+  }
+}
+

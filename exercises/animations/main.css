@@ -1,0 +1,57 @@
+
+body {
+  background-color: pink;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  text-align: center;
+}
+
+
+.item {
+  animation-duration: 2s;
+  animation-name: spinType;
+  animation-iteration-count: 2;
+  animation-direction: reverse;
+}
+
+@keyframes yinyang {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.circle1 {
+  fill: darkred;
+}
+
+.circle2 {
+  fill: blue;
+}
+
+#yin-yang:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+#yin-yang {
+  height:500px;
+  animation-name: yinyang;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-out;
+}
