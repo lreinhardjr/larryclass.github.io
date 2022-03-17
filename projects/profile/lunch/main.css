@@ -1,0 +1,189 @@
+body {
+	background-color: black;
+	margin: 0px;
+}
+
+.lunch{
+	height: 100vh;
+}
+
+.lunchvid {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+	opacity: 0;
+}
+
+
+.lunchtitle1 {
+	z-index: 9;
+	background-color: black;
+	position: absolute;
+	font-size: 100px;
+	color: white;
+	display: inline-block;
+	right: 25px;
+	top: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
+.lunchtitle2 {
+	z-index: 9;
+	background-color: black;
+	position: absolute;
+	font-size: 100px;
+	color: white;
+	display: inline-block;
+	right: 25px;
+	top: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
+@keyframes load {
+  0%   {opacity: 0;}
+  100%  {opacity: 1}
+}
+
+.num {
+	z-index: 9;
+	background-color: black;
+	position: absolute;
+	font-size: 100px;
+	color: white;
+	display: inline-block;
+	left: 50px;
+	top: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+
+}
+
+.text {
+	width: 40vw;
+	height: 90vh;
+	color: black;
+	position: absolute;
+	left: 8%;
+  top: 5%;
+  z-index: 9;
+  overflow: hidden;
+}
+
+.text1 {
+	color: white;
+	top: 100%;
+	position: absolute;
+	overflow: hidden;
+	font-size: 20px;
+	animation-name: text;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+	transition-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 5s;
+}
+
+@keyframes text {
+  0%   { top:100%;}
+  25%  { top:92%;}
+  50% { top:81%;}
+  75% { top:70%;}
+  100% { top:55%;}
+}
+
+.s1 {
+	display: inline;
+	background-color: black;
+	box-shadow: 10px 0 0 black, -10px 0 0 black;
+}
+
+.s2 {
+	display: inline;
+	background-color: black;
+	box-shadow: 10px 0 0 black, -10px 0 0 black;
+
+}
+
+.subpara{
+	margin-top: 10px;
+}
+
+.arrow {
+	z-index: 9;
+	height: 80px;
+	position: absolute;
+	right: 3%;
+  top: 50%;
+  animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+	opacity: 0;
+}
+
+.arrow2 {
+	z-index: 9;
+	height: 80px;
+	position: absolute;
+	left: 3%;
+  	top: 50%;
+  	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+	opacity: 0;
+}
+
+.arrow2, .arrow:hover{
+	cursor: pointer;
+}
+
+.producetitle22 {
+	z-index: 9;
+	background-color: black;
+	position: absolute;
+	font-size: 100px;
+	color: white;
+	display: inline-block;
+	left: 25px;
+	top: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	animation-name: unload;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+}
+
+@keyframes unload {
+  0%   {opacity: 1;}
+  100%  {opacity: 0}
+}
