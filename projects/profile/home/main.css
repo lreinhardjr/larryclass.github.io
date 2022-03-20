@@ -1,10 +1,15 @@
 body {
-	background-color: blue;
+	background-color: black;
 	margin: 0px;
 }
 
 .intro{
 	height: 100vh;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: all 2s;
 }
 
 .introvid {
@@ -45,6 +50,10 @@ body {
 	position: absolute;
 	right: 3%;
   	top: 50%;
+}
+
+.arrow:hover{
+	cursor: pointer;
 }
 
 .start {

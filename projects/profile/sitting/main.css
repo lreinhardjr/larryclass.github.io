@@ -7,6 +7,11 @@ body {
 	height: 100vh;
 }
 
+.fadeOut {
+	opacity: 0;
+	transition: all 2s;
+}
+
 .seatvid {
 	width: 100%;
 	height: 100%;
