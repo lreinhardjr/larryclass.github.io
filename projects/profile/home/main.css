@@ -12,11 +12,43 @@ body {
 	transition: all 2s;
 }
 
+.start {
+	font-family: lora,serif;
+
+	font-style: normal;
+	font-size: 18px;
+
+}
+
+.introtext1, .start, .introtext2 {
+	font-family: pt-sans-narrow,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
 .introvid {
 	width: 100%;
 	height: 100%;
-	object-fit: fill;
+	object-fit: fill;	
+	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+	opacity: 0;
 }
+
+@keyframes load {
+  0%   {opacity: 0;}
+  100%  {opacity: 1}
+}
+
 
 .introtext1 {
 	z-index: 9;
@@ -49,7 +81,13 @@ body {
 	height: 80px;
 	position: absolute;
 	right: 3%;
-  	top: 50%;
+  	top: 50.2%;
+  animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+	opacity: 0;
 }
 
 .arrow:hover{
@@ -59,8 +97,8 @@ body {
 .start {
 	position: absolute;
 	color: white;
-	right: 7%;
+	right: 6.5%;
 	font-size: 18px;
-	top: 53.8%;
+	top: 53%;
 	background-color: black;
 }

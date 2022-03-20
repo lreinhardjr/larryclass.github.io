@@ -12,5 +12,5 @@ function fadeBlackFor () {
   
 
 function loadForward () {
-  window.location.href = 'https://www.encodedna.com/javascript/operators/default.htm';
+  window.location.href = 'https://lreinhardjr.github.io/projects/profile/market/';
 }

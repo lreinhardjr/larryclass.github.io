@@ -12,6 +12,21 @@ body {
 	transition: all 2s;
 }
 
+.subparatext {
+	font-family: lora,serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 18px;
+
+}
+
+.producetitle1, .producetitle2, .num {
+	font-family: pt-sans-narrow,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
 .nosound {
 	height: 25px;
 	z-index: 9;
