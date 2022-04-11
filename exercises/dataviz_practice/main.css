@@ -1,0 +1,91 @@
+
+body {
+  margin: 0;
+}
+
+.garden {
+  display: flex;
+/*  flex-wrap: wrap;*/
+  width: 100vw;
+  flex-direction: column;
+}
+
+.flower {
+  font-family: arial;
+  display: flex;
+  padding: 100px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 360px;
+  flex-direction: column;
+  display: flex;
+
+}
+
+
+.Sunday {
+  /*background-color: red;*/
+  background-image: url("coffee.png");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 5px solid red;
+    flex-direction: column;
+}
+
+.Monday {
+  /*background-color: pink;*/
+  border: 5px solid pink;
+  background-image: url("coffee.png");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.Tuesday {
+  /*background-color:  yellow;*/
+  border: 5px solid yellow;
+  background-image: url("coffee.png");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Wednesday {
+  /*background-color:  powderblue;*/
+  border: 5px solid powderblue;
+  background-image: url("coffee.png");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Thursday {
+  /*background-color: blue;*/
+  border: 5px solid blue;
+  background-image: url("coffee.png");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Friday {
+  border: 5px solid green;
+  background-image: url("martini.png");
+  background-size: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: red;
+}
+
+.Saturday {
+  color: black;
+  border: 5px solid grey;
+  /*background-color: grey;*/
+  background-image: url("water.png");
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
