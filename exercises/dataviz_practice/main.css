@@ -29,7 +29,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   border: 5px solid red;
-    flex-direction: column;
 }
 
 .Monday {
@@ -39,7 +38,6 @@ body {
   background-size: 300px;
   background-position: center;
   background-repeat: no-repeat;
-    flex-direction: column;
 }
 
 .Tuesday {
