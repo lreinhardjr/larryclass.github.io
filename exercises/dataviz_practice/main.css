@@ -5,9 +5,8 @@ body {
 
 .garden {
   display: flex;
-/*  flex-wrap: wrap;*/
+  flex-wrap: wrap;
   width: 100vw;
-  flex-direction: column;
 }
 
 .flower {
