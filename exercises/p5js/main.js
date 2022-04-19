@@ -60,8 +60,8 @@ function draw() {
   
   let margin = 0;
   
-  let gridWidth = 20
-  let gridHeight = 20
+  let gridWidth = 30
+  let gridHeight = 30
   let cellSize = (width - (margin * 2)) / (gridWidth - 1)  
   
   randomSeed(222)
