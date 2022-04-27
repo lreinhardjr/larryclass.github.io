@@ -1,0 +1,118 @@
+.button {
+  width:100px;
+  text-align:center;
+  padding: 5px;
+  color:#E7E5DF;
+  border:1px solid whitesmoke;
+  margin-bottom:20px;
+  margin-left: 10px;
+  z-index: 0;
+  font-family: 'Karla', sans-serif;  font-weight: 200;
+  display: inline-block;
+  background: rgba(211, 208, 203, 0.7); 
+
+
+}
+
+.buttons {
+  position: fixed;
+  margin-left: 75px;
+}
+
+.title {
+  font-size: 90px;
+  margin-left: 10px;
+  margin-top: 70px;
+  max-width: 400px;
+  color:white;
+  font-family: 'Bebas Neue';
+  line-height: 98%;
+}
+
+.active {
+  background-color: red;
+}
+
+
+
+#hi:hover{
+  background-color: red;
+  cursor:pointer;
+  color:#E7E5DF;
+}
+
+.button:hover{
+  background-color: red;
+  cursor:pointer;
+  color:#E7E5DF;
+}
+.subheader {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(211, 208, 203);
+}
+
+.hide{
+  width:100px;
+  padding: 5px;
+  margin-bottom:20px;
+  margin-left: 10px;
+  visibility: hidden;
+  z-index: 0;
+  text-align:center;
+  color:#black;
+  border:1px solid whitesmoke;
+  display: inline-block;
+  font-family: 'Karla', sans-serif;  font-weight: 200;
+  background-color: red;
+  position: absolute ;
+}
+
+.button3:hover +.hide{
+  visibility: visible;
+  cursor: help;
+}
+
+.button3 {
+  position: absolute;
+}
+
+.header {
+  color: white;
+  margin-left: 10px;
+  margin-top: 30px;
+  display: inline-block;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+
+}
+
+.line{
+  height: 1px;
+  background-color: red;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.titleline {
+  height: 3px;
+  background-color: red;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 90%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvay: block;
+}
