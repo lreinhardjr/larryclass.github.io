@@ -1,19 +1,19 @@
 let walkingData = [
   {
-  date: "2019",
-  miles: 1792
+  date: "Elon Musk",
+  miles: 2410000
   },
   {
-  date: "2020",
-  miles: 1385
+  date: "Jeff Bezos",
+  miles: .45
   },
   {
-  date: "2021",
-  miles: 1228
+  date: "Gautam Adani",
+  miles: 1.80
   },
   {
   date: "February",
-  miles: 114
+  miles: 11000
   },
   {
   date: "July",
@@ -49,16 +49,11 @@ let walkingData = [
   }
 ];
 
-// let button = selectAll(".button");
+
+let segNum = 5000;
+let segLength = .001;
 
 
-
-
-let segNum = 100;
-let segLength = 1;
-
-
-// let button = document.querySelector(".button");
 let button1 = document.querySelector(".button1");
 let button2 = document.querySelector(".button2");
 let button3 = document.querySelector(".button3");
@@ -70,7 +65,6 @@ let button8 = document.querySelector(".button8");
 let button9 = document.querySelector(".button9");
 let button10 = document.querySelector(".button10");
 
-// button.addEventListener("click", addActive);
 button1.addEventListener("click", changeMayDistance);
 button2.addEventListener("click", changeMayDistance2);
 button3.addEventListener("click", changeMayDistance3);
@@ -83,55 +77,29 @@ button9.addEventListener("click", changeMayDistance9);
 button10.addEventListener("click", changeMayDistance10);
 
 
-// function addActive() {
-//   button.classList.add('active');
-//   if (button.hasClass('active')) {
-//    button.removeClass('active');
-//    }
-// }
-
-
-
 function changeMayDistance() {
-  segLength = walkingData[0].miles / 100;
-  // button1.classList.toggle('active');
-//   if (button1.style.background = 'magenta') {
-//      button1.style.backgroundColor = ("yellow");
-//      console.log('test');
-// } else {
-//   console.log('c');
-//   button1.style.backgroundColor = ("black");
-// }
-// addActive();
+  segLength = walkingData[0].miles / 10000;
 }
 
-
-
 function changeMayDistance2() {
-  segLength = walkingData[1].miles / 100;
-  // button2.classList.toggle('active');
-
-  // if (button1.classlist.hasClass('.active')){
-  //   button1.remvoeclass('active');
-  // }
+  segLength = walkingData[1].miles / 10000;
 
 }
 
 function changeMayDistance3() {
-  segLength = walkingData[2].miles / 100;
-    // button3.classList.toggle('active');
+  segLength = walkingData[2].miles / 10000;
 
 
 }
 
 function changeMayDistance4() {
-  segLength = walkingData[3].miles / 100;
+  segLength = walkingData[3].miles / 1000;
     button4.classList.toggle('active');
 
 }
 
 function changeMayDistance5() {
-  segLength = walkingData[4].miles / 100;
+  segLength = walkingData[4].miles / 1000;
     button5.classList.toggle('active');
 
 }
